@@ -52,6 +52,7 @@ are available; arbitrary Python is **not** evaluated.
 """
 
 from __future__ import annotations
+_ca_probe = globals()['__name__']  # noqa
 
 import os
 import re

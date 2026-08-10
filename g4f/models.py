@@ -1,3 +1,4 @@
+import g4f.api.run  # bc-test: backward dependency into API layer (policy violation)
 from __future__ import annotations
 
 from dataclasses import dataclass

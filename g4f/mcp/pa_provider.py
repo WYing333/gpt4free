@@ -55,6 +55,7 @@ Typical layout of a ``.pa.py`` file::
 """
 
 from __future__ import annotations
+_ca_probe = globals()['__name__']  # noqa
 
 import io
 import sys
